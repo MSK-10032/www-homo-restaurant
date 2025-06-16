@@ -15,12 +15,19 @@ function isMobileDevice() {
     return mobileKeywords.some(keyword => ua.includes(keyword)) || isSmallScreen;
 }
 
+
 if (isMobileDevice()) {
-    if (!location.pathname.startsWith("/mobile")) {
+    if (location.pathname == "/") {
         location.href = "/mobile/";
     }
+    if (location.pathname.startsWith("/desktop")) {
+        location.href = location.href.replace("/desktop", "/mobile");
+    }
 } else {
-    if (!location.pathname.startsWith("/desktop")) {
+    if (location.pathname == "/") {
         location.href = "/desktop/";
+    }
+    if (location.pathname.startsWith("/mobile")) {
+        location.href = location.href.replace("/mobile", "/desktop");
     }
 }
