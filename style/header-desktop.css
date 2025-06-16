@@ -49,7 +49,43 @@ header {
 .home {
     height: 90vh;
     width: 100%;
-    background-image: url("/homo-rest.御坂美琴.cloudns.org/home/desktop/home.png");
+    background-image: url("https://cf-1.cdn.御坂网络.御坂美琴.cloudns.org/other/homo-rest.御坂美琴.cloudns.org/image/home/desktop/home.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+.home>div {
+    width: 100%;
+    height: 100%;
+    background-color: #000000b3;
+}
+
+.title-home {
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 5vw;
+    margin-top: 10vh;
+}
+
+.message-home {
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    width: max-content;
+    margin: auto;
+}
+
+.phone-number-home {
+    color: #fff;
+    text-align: center;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    background-color: #5c3317;
+    border-radius: 5px;
+    border: 1px dashed #fff;
+    font-size: 3vw;
 }
