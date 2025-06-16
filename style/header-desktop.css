@@ -66,7 +66,7 @@ header {
     text-align: center;
     margin: auto;
     font-size: 5vw;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .message-home {
@@ -81,8 +81,7 @@ header {
     color: #fff;
     text-align: center;
     width: max-content;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     margin-top: 5vh;
     background-color: #5c3317;
     border-radius: 5px;
