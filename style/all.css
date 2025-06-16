@@ -33,3 +33,9 @@ strong,
 ::-webkit-scrollbar-thumb:hover {
     background: #EEE;
 }
+
+/* main */
+body {
+    margin: 0;
+    padding: 0;
+}
